@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.navbar a{
+     font-size: 18px;
+     color: white;
+     text-decoration: none;
+     font-weight: 500;
+     margin-left: 35px;
+     transition: .3s;
+}
+.navbar a:hover{
+    color: rgb(214, 185, 139);
+}
+#active{
+   color: rgb(214, 185, 139);
+}
+.home{
+    height: 100vh;
+    background:linear-gradient(-90deg, black 65%, rgb(214, 185, 139) 35%);
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+
+}
+.homee{
+    height: 100vh;
+    background:black;
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+}
+.general{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 35%;
+    height: 45%;
+    background:rgb(214, 185, 139);
+    
+}
+.images {
+    margin: 10px auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+}
+.home-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    background:rgb(214, 185, 139);
+    border-radius: 50%;
+    /*border: 25px solid black;*/
+}
+.home-image img{
+    position: relative;
+    max-width: 450px;
+    max-height: 450px;
+    border-radius: 50%;
+}
+.home-content{
+    max-width: 600px;
+    color: black;
+    text-align: left;
+}
+.home-content h1{
+    font-size: 55px;
+    line-height: 1.2;
+    color: #fff;
+
+}
+.home-content h3{
+    font-size: 40px;
+    color: rgb(214, 185, 139);
+}
+.home-content p{
+    font-size: 16px;
+    margin-top: 20px;
+    color: #fff;
+}
+.social{
+    margin: 25px 0 40px;
+}
+.social a{
+ display: inline-flex;
+ justify-content: center;
+ align-items: center;
+ width:40px ;
+ height: 40px;
+ background:transparent ;
+ border: 2px solid rgb(214, 185, 139);
+ border-radius: 50%;
+ font-size: 20px;
+ color: rgb(214, 185, 139);
+ text-decoration: none;
+}
+.social a:hover{
+    background: rgb(214, 185, 139);
+    color: white;
+    border-color: rgb(214, 185, 139);
+    box-shadow: 0 0 10px rgb(214, 185, 139);
+}
+
